@@ -8,12 +8,12 @@ main{
 
 footer{
   background-color: black;
-  color:white
+  color:yellow;
 }
 
 #menu > li{
-  background-color: blue;
-  color: white
+  background-color: green;
+  color:white;
 }
 
 #menu > a{

@@ -1,0 +1,18 @@
+h1{
+text-align: center;
+}
+
+ul > li{
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  border-radius: 5%;
+
+  background-color: blue;
+  color: white;
+
+  margin: 10px;
+  width: 40%;
+  padding: 20px;
+  /* height: 100px; */
+}

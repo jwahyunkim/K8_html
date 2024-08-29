@@ -1,151 +1,114 @@
-/* "*" 아스트릴은 유니버셜 명령어이다. */
 * {
   padding: 0px;
   margin: 0px;
-
+  
   box-sizing: border-box;
 }
-
-header,
-main,
-{
-  background-color: aliceblue;
+header, main, footer {
   width: 80%;
-  margin-left: 10%;
-
+  margin-left: 10%; 
 }
-
+header, main {
+  background-color: aliceblue;
+}
+main, footer {
+  padding: 20px;
+}
 footer {
   background-color: black;
-  color: yellow;
+  color: white; 
+  font-size: small; 
 }
-
-header,
-header ul {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-}
-
-
-header {
-  height: 80px;
-  padding: 20px;
-  box-sizing: border-box;
-}
-
-/* nav > ul{ */
-/* header ul{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-} */
-
-
-ul {
-  list-style: none;
-}
-
-.menuLi {
-  margin-right: 10px;
-  margin-left: 10px;
-  padding: 10px;
-
-  background-color: blue;
-  color: white;
-
-  border-radius: 15px;
-}
-
-.menuLi:hover {
-  background-color: brown;
-}
-
-a {
-  text-decoration: none;
-
-  color: white;
-}
-
-/* #menu > li{
-  background-color: green;
-  color:white;
-} */
-
-/* #menu > a{
-  background-color: aqua;
-}
-section{
-
-  background-color: white;
-}
-
-.s1 {
-  background-color: aqua;
-}
-
-.s2{
-  background-color: aquamarine;
-} */
-
-article {
-  padding: 30px;
-}
-
-h1,
-article>p {
+footer > ul {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
+}
+header, header ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+header {
+  height: 80px;
   padding: 20px;
 }
-
+/* nav > ul { */
+/* header ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+} */
+ul {
+  list-style: none;
+}
+.menuLi {
+  margin-right: 10px;
+  margin-left: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: royalblue;
+  color: white;
+}
+.menuLi:hover {
+  background-color: chocolate; 
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+li img {
+  width: 20px;
+  height: 20px;
+}
+article {
+  padding: 60px; 
+}
+article > p {
+  padding: 20px;
+}
+p > span {
+  color: brown;
+  font-weight: bold;
+}
+h1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+ 
 section {
-  margin: 2px 10px;
+  margin: 20px ;
   padding: 20px 40px;
   background-color: white;
-  border-radius: 5px;
+  border-radius: 15px;
 }
-
 h2 {
   padding-bottom: 20px;
 }
-
-/* display and flex-direction */
 .secDiv {
   display: flex;
   flex-direction: row;
 }
-
-.secDiv {
-  display: flex;
-  flex-direction: row;
-}
-
-
-
-.secDiv>div {
+.secDiv > div {
   width: 20%;
 }
-
-
 .secDiv img {
   width: 80%;
   border-radius: 50%;
 }
-
-.secDiv>p {
+.secDiv > p {
   width: 80%;
   font-size: medium;
-  color: gray;
-}
-
-span {
-  color: brown;
-  font-size: large;
+  color: dimgray ;
   font-weight: bold;
 }
 
@@ -162,7 +125,7 @@ span {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    
+
     width: 100%;
   }
   header {

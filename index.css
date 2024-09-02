@@ -1,8 +1,10 @@
-h1{
-text-align: center;
+h1 {
+  text-align: center;
 }
 
-ul > li{
+ul>li {
+  list-style: none;
+
   text-align: center;
   font-size: 50px;
   font-weight: bold;
@@ -11,8 +13,14 @@ ul > li{
   background-color: blue;
   color: white;
 
+
   margin: 10px;
   width: 40%;
   padding: 20px;
   /* height: 100px; */
+}
+
+a{
+  text-decoration: none;
+  color: white;
 }

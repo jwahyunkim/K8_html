@@ -1,0 +1,46 @@
+.sec,.row {
+  width: 100%
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 10px;
+
+}
+
+.col {
+  width: 50%;
+  height: 40px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* background-color: aqua; */
+
+}
+input{
+  width: 70%;
+  height: 40px;
+}
+
+label{
+  width: 10%;
+  height: 40px;
+  padding-left: 10px;
+  background-color: aliceblue;
+
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-size: large;
+  font-weight: bold;
+}
+
+#tex2{
+  background-color: antiquewhite;
+}

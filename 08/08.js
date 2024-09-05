@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', () => {
+
   //요소 가져오기
   const img = document.querySelector('.row > img');
   const txt1 = document.querySelector('#txt1');
